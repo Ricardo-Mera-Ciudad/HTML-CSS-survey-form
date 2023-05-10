@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>freeCodeCamp Survey Form</h1>
+    <p>Thank you for taking the time to help us improve the platform</p>
+    <form action="submit" id="survey-form">
+      <label for="name-input">Name</label>
+      <input
+        type="text"
+        id="name-input"
+        placeholder="Enter your name"
+        required
+      />
+      <label for="email-input">Email</label>
+      <input
+        type="email"
+        id="email-input"
+        multiple
+        placeholder="Enter your Email"
+        required
+      />
+      <label for="age-input">Age (optional)</label>
+      <input type="number" id="age-input" placeholder="Age" min="1" max="99" />
+      <label for="role">asdf</label>
+      <select name="role" id="role">
+    
+        <option value="student">Student</option>
+        <option value="fulltimejob">Full time job</option>
+        <option value="fulltimelearner">Full time learner</option>
+        <option value="prefernottosay">Prefer not to say</option>
+        <option value="other">Other</option>
+      </select>
+
+      <fieldset>
+        <legend>Would you recommend freeCodeCamp to a friend?</legend>
+        <input
+          type="radio"
+          name="recommend"
+          id="definitely"
+          value="definitely"
+          checked
+        />Definitely
+        <input type="radio" name="recommend" id="maybe" value="maybe" />Maybe
+        <input
+          type="radio"
+          name="recommend"
+          id="not-sure"
+          value="not-sure"
+        />Not sure
+      </fieldset>
+    </form>
+  </body>
+</html>
