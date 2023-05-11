@@ -2,6 +2,7 @@
 
 * {
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
   margin: 0;
   padding: 0;
 }
@@ -21,26 +22,54 @@
 
 #title-div {
   text-align: center;
+  padding:50px 0 30px 0;
 }
 
 #main-title {
   color: whitesmoke;
+  font-size: 1.8em;
+  font-weight: 200;
 }
 
 #main-subtitle {
   color: whitesmoke;
+  font-weight: 100;
 }
 
 #survey-form{
-    background-color: rgba(0, 0, 41, 0.7);
-    width: 50%;
+    background-color: rgba(24, 24, 62, 0.7);
+    border-radius: 5px;
+    width: 38%;
     margin: auto;
 }
 
+#name-label{
+    margin-top: 10px;
+}
+
 #form-field{
-    padding: 50px;
+    padding: 27px 45px 0 45px;
+    display: flex;
+    flex-direction: column;
 }
 
 label, p{
     color:white;
+    margin-bottom: 10px;
+}
+
+#name, #email, #number, #dropdown, #most-like{
+    height: 40px;
+    border-radius: 5px;
+}
+
+#comments{
+    height: 120px;
+}
+
+#submit-btn{
+    background-color: rgb(55,175,101);
+    height: 50px;
+    color: white;
+
 }
